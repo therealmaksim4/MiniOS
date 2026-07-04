@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named functions
+
+# Build rule for target.
+functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functions
+.PHONY : functions
+
+# fast build rule for target.
+functions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/build
+.PHONY : functions/fast
+
+#=============================================================================
 # Target rules for targets named minios
 
 # Build rule for target.
@@ -128,6 +141,30 @@ minios: cmake_check_build_system
 minios/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minios.dir/build.make CMakeFiles/minios.dir/build
 .PHONY : minios/fast
+
+src/functions/functions.o: src/functions/functions.cpp.o
+.PHONY : src/functions/functions.o
+
+# target to build an object file
+src/functions/functions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/src/functions/functions.cpp.o
+.PHONY : src/functions/functions.cpp.o
+
+src/functions/functions.i: src/functions/functions.cpp.i
+.PHONY : src/functions/functions.i
+
+# target to preprocess a source file
+src/functions/functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/src/functions/functions.cpp.i
+.PHONY : src/functions/functions.cpp.i
+
+src/functions/functions.s: src/functions/functions.cpp.s
+.PHONY : src/functions/functions.s
+
+# target to generate assembly for a file
+src/functions/functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/src/functions/functions.cpp.s
+.PHONY : src/functions/functions.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... functions"
 	@echo "... minios"
+	@echo "... src/functions/functions.o"
+	@echo "... src/functions/functions.i"
+	@echo "... src/functions/functions.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

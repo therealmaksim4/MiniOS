@@ -96,6 +96,7 @@ minios_EXTERNAL_OBJECTS =
 minios: CMakeFiles/minios.dir/src/main.cpp.o
 minios: CMakeFiles/minios.dir/build.make
 minios: CMakeFiles/minios.dir/compiler_depend.ts
+minios: libfunctions.a
 minios: CMakeFiles/minios.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable minios"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minios.dir/link.txt --verbose=$(VERBOSE)
