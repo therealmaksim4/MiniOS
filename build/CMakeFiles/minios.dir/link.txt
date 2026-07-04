@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/minios.dir/link.d CMakeFiles/minios.dir/src/main.cpp.o -o minios

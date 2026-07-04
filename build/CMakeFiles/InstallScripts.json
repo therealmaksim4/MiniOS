@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/therealmaksim4/MiniOS/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,3 @@
+/home/therealmaksim4/MiniOS/build/CMakeFiles/minios.dir
+/home/therealmaksim4/MiniOS/build/CMakeFiles/edit_cache.dir
+/home/therealmaksim4/MiniOS/build/CMakeFiles/rebuild_cache.dir
