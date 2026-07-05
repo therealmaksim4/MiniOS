@@ -129,12 +129,15 @@ CMakeFiles/minios.dir/src/main.cpp.o: /home/therealmaksim4/MiniOS/src/main.cpp \
   /usr/include/c++/16/bits/stdexcept_throw.h \
   /usr/include/c++/16/bits/stdexcept_throwfwd.h \
   /usr/include/c++/16/bits/stl_algobase.h \
+  /usr/include/c++/16/bits/stl_bvector.h \
   /usr/include/c++/16/bits/stl_construct.h \
   /usr/include/c++/16/bits/stl_function.h \
   /usr/include/c++/16/bits/stl_iterator.h \
   /usr/include/c++/16/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/16/bits/stl_iterator_base_types.h \
   /usr/include/c++/16/bits/stl_pair.h \
+  /usr/include/c++/16/bits/stl_uninitialized.h \
+  /usr/include/c++/16/bits/stl_vector.h \
   /usr/include/c++/16/bits/streambuf.tcc \
   /usr/include/c++/16/bits/streambuf_iterator.h \
   /usr/include/c++/16/bits/string_view.tcc \
@@ -142,6 +145,7 @@ CMakeFiles/minios.dir/src/main.cpp.o: /home/therealmaksim4/MiniOS/src/main.cpp \
   /usr/include/c++/16/bits/uses_allocator.h \
   /usr/include/c++/16/bits/uses_allocator_args.h \
   /usr/include/c++/16/bits/utility.h \
+  /usr/include/c++/16/bits/vector.tcc \
   /usr/include/c++/16/bits/version.h \
   /usr/include/c++/16/cctype \
   /usr/include/c++/16/cerrno \
@@ -179,6 +183,7 @@ CMakeFiles/minios.dir/src/main.cpp.o: /home/therealmaksim4/MiniOS/src/main.cpp \
   /usr/include/c++/16/tuple \
   /usr/include/c++/16/type_traits \
   /usr/include/c++/16/typeinfo \
+  /usr/include/c++/16/vector \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -264,8 +269,6 @@ minios: /usr/lib/Scrt1.o \
 
 /usr/include/pthread.h:
 
-/usr/include/locale.h:
-
 /usr/include/linux/sched/types.h:
 
 /usr/include/linux/posix_types.h:
@@ -291,6 +294,8 @@ minios: /usr/lib/Scrt1.o \
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/include/c++/16/vector:
 
 /usr/include/c++/16/typeinfo:
 
@@ -342,19 +347,23 @@ minios: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16/bits/version.h:
 
-/usr/include/c++/16/bits/uses_allocator.h:
-
 /usr/include/linux/stddef.h:
 
 /usr/include/c++/16/bits/stringfwd.h:
-
-/usr/include/c++/16/bits/string_view.tcc:
 
 /usr/include/c++/16/bits/streambuf_iterator.h:
 
 /usr/include/c++/16/iosfwd:
 
 /usr/include/c++/16/bits/streambuf.tcc:
+
+/usr/include/locale.h:
+
+/usr/include/c++/16/bits/stl_vector.h:
+
+/usr/include/c++/16/bits/string_view.tcc:
+
+/usr/include/c++/16/bits/stl_uninitialized.h:
 
 /usr/include/c++/16/bits/stl_pair.h:
 
@@ -367,6 +376,10 @@ minios: /usr/lib/Scrt1.o \
 /usr/include/sched.h:
 
 /usr/include/c++/16/bits/stl_function.h:
+
+/usr/include/c++/16/bits/uses_allocator.h:
+
+/usr/include/c++/16/bits/stl_bvector.h:
 
 /usr/include/c++/16/bits/stl_algobase.h:
 
@@ -467,6 +480,8 @@ minios: /usr/lib/Scrt1.o \
 /usr/include/alloca.h:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/c++/16/bits/vector.tcc:
 
 /usr/include/bits/struct_rwlock.h:
 
