@@ -70,6 +70,17 @@ int main(){
             user_files.push_back({cmd, ""});
         }
 
+        else if(cmd == "rmfile"){
+            std::cout << "Type the name of the file you want to delete: ";
+            std::cin >> cmd;
+
+            for(int i = 0; i < user_files.size(); i++){
+                if(cmd == user_files[i].name){
+                    user_files.erase(user_files.begin() + i);
+                }
+            }
+        }
+
         else{
             std::cout << "Please type a valid command..." << std::endl;
         }

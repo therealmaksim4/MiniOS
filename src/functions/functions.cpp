@@ -7,4 +7,5 @@ void help(){
     std::cout << "clear - Clear the terminal" << std::endl;
     std::cout << "list - List MiniOS generated files or user generated files" << std::endl;
     std::cout << "mkfile - Make a file" << std::endl;
+    std::cout << "rmfile - Delete a file" << std::endl;
 }
