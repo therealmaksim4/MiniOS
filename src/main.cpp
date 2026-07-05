@@ -46,6 +46,30 @@ int main(){
             system("clear");
         }
 
+        else if(cmd == "list"){
+            std::cout << "M - MiniOS generated files, U - user generated files: ";
+            std::cin >> cmd;
+
+            if(cmd == "M" || cmd == "m"){
+                list(normal_files);
+            }
+
+            else if(cmd == "U" || cmd == "u"){
+                list(user_files);
+            }
+
+            else{
+                std::cout << "Please type a valid command..." << std::endl;
+            }
+        }
+
+        else if(cmd == "mkfile"){
+            std::cout << "Type the name of the file: ";
+            std::cin >> cmd;
+
+            user_files.push_back({cmd, ""});
+        }
+
         else{
             std::cout << "Please type a valid command..." << std::endl;
         }
