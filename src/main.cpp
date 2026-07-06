@@ -1,6 +1,7 @@
 #include <iostream>
 #include "functions/functions.h"
 #include <vector>
+#include "extra_commands/extra_commands.h"
 
 struct file{
     std::string name;
@@ -14,7 +15,12 @@ void list(std::vector<file> files){
 }
 
 int main(){
-    std::string prompt = "guest@MiniOS: ";
+    std::string username;
+
+    std::cout << "Your username for this session: ";
+    std::cin >> username;
+
+    std::string prompt = "MiniOS: ";
 
     std::vector<file> normal_files = {};
     std::vector<file> user_files = {};
