@@ -1,0 +1,2 @@
+/usr/bin/ar qc libextra_commands.a CMakeFiles/extra_commands.dir/src/extra_commands/extra_commands.cpp.o
+/usr/bin/ranlib libextra_commands.a

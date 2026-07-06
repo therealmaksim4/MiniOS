@@ -64,11 +64,13 @@ CMAKE_BINARY_DIR = /home/therealmaksim4/MiniOS/build
 
 # The main recursive "all" target.
 all: CMakeFiles/functions.dir/all
+all: CMakeFiles/extra_commands.dir/all
 all: CMakeFiles/minios.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/functions.dir/codegen
+codegen: CMakeFiles/extra_commands.dir/codegen
 codegen: CMakeFiles/minios.dir/codegen
 .PHONY : codegen
 
@@ -78,6 +80,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/functions.dir/clean
+clean: CMakeFiles/extra_commands.dir/clean
 clean: CMakeFiles/minios.dir/clean
 .PHONY : clean
 
@@ -88,7 +91,7 @@ clean: CMakeFiles/minios.dir/clean
 CMakeFiles/functions.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=1,2 "Built target functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=3,4 "Built target functions"
 .PHONY : CMakeFiles/functions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -105,7 +108,7 @@ functions: CMakeFiles/functions.dir/rule
 # codegen rule for target.
 CMakeFiles/functions.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/functions.dir/build.make CMakeFiles/functions.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=1,2 "Finished codegen for target functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=3,4 "Finished codegen for target functions"
 .PHONY : CMakeFiles/functions.dir/codegen
 
 # clean rule for target.
@@ -114,18 +117,51 @@ CMakeFiles/functions.dir/clean:
 .PHONY : CMakeFiles/functions.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/extra_commands.dir
+
+# All Build rule for target.
+CMakeFiles/extra_commands.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extra_commands.dir/build.make CMakeFiles/extra_commands.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extra_commands.dir/build.make CMakeFiles/extra_commands.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=1,2 "Built target extra_commands"
+.PHONY : CMakeFiles/extra_commands.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/extra_commands.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/therealmaksim4/MiniOS/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/extra_commands.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/therealmaksim4/MiniOS/build/CMakeFiles 0
+.PHONY : CMakeFiles/extra_commands.dir/rule
+
+# Convenience name for target.
+extra_commands: CMakeFiles/extra_commands.dir/rule
+.PHONY : extra_commands
+
+# codegen rule for target.
+CMakeFiles/extra_commands.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extra_commands.dir/build.make CMakeFiles/extra_commands.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=1,2 "Finished codegen for target extra_commands"
+.PHONY : CMakeFiles/extra_commands.dir/codegen
+
+# clean rule for target.
+CMakeFiles/extra_commands.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extra_commands.dir/build.make CMakeFiles/extra_commands.dir/clean
+.PHONY : CMakeFiles/extra_commands.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/minios.dir
 
 # All Build rule for target.
 CMakeFiles/minios.dir/all: CMakeFiles/functions.dir/all
+CMakeFiles/minios.dir/all: CMakeFiles/extra_commands.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minios.dir/build.make CMakeFiles/minios.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minios.dir/build.make CMakeFiles/minios.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=3,4 "Built target minios"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=5,6 "Built target minios"
 .PHONY : CMakeFiles/minios.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/minios.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/therealmaksim4/MiniOS/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/therealmaksim4/MiniOS/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/minios.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/therealmaksim4/MiniOS/build/CMakeFiles 0
 .PHONY : CMakeFiles/minios.dir/rule
@@ -137,7 +173,7 @@ minios: CMakeFiles/minios.dir/rule
 # codegen rule for target.
 CMakeFiles/minios.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minios.dir/build.make CMakeFiles/minios.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=3,4 "Finished codegen for target minios"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/therealmaksim4/MiniOS/build/CMakeFiles --progress-num=5,6 "Finished codegen for target minios"
 .PHONY : CMakeFiles/minios.dir/codegen
 
 # clean rule for target.

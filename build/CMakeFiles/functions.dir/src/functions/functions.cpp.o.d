@@ -142,4 +142,172 @@ CMakeFiles/functions.dir/src/functions/functions.cpp.o: \
  /usr/include/c++/16/bits/basic_ios.tcc \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
- /usr/include/c++/16/bits/istream.tcc
+ /usr/include/c++/16/bits/istream.tcc \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/stdc++.h \
+ /usr/include/c++/16/cfloat \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/float.h \
+ /usr/include/c++/16/climits \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h /usr/include/c++/16/csetjmp \
+ /usr/include/setjmp.h /usr/include/c++/16/cstdarg \
+ /usr/include/c++/16/cstdint \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h /usr/include/c++/16/algorithm \
+ /usr/include/c++/16/bits/stl_algo.h \
+ /usr/include/c++/16/bits/algorithmfwd.h \
+ /usr/include/c++/16/bits/stl_heap.h \
+ /usr/include/c++/16/bits/uniform_int_dist.h \
+ /usr/include/c++/16/bits/stl_tempbuf.h \
+ /usr/include/c++/16/bits/ranges_algo.h \
+ /usr/include/c++/16/bits/ranges_algobase.h \
+ /usr/include/c++/16/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/16/pstl/execution_defs.h /usr/include/c++/16/bitset \
+ /usr/include/c++/16/functional /usr/include/c++/16/bits/refwrap.h \
+ /usr/include/c++/16/bits/std_function.h \
+ /usr/include/c++/16/unordered_map \
+ /usr/include/c++/16/bits/unordered_map.h \
+ /usr/include/c++/16/bits/hashtable.h \
+ /usr/include/c++/16/bits/hashtable_policy.h \
+ /usr/include/c++/16/ext/aligned_buffer.h \
+ /usr/include/c++/16/bits/enable_special_members.h \
+ /usr/include/c++/16/bits/node_handle.h /usr/include/c++/16/vector \
+ /usr/include/c++/16/bits/stl_uninitialized.h \
+ /usr/include/c++/16/bits/stl_vector.h \
+ /usr/include/c++/16/bits/stl_bvector.h \
+ /usr/include/c++/16/bits/vector.tcc /usr/include/c++/16/array \
+ /usr/include/c++/16/bits/binders.h /usr/include/c++/16/iterator \
+ /usr/include/c++/16/bits/stream_iterator.h /usr/include/c++/16/memory \
+ /usr/include/c++/16/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/16/bits/align.h /usr/include/c++/16/bits/unique_ptr.h \
+ /usr/include/c++/16/bits/shared_ptr.h \
+ /usr/include/c++/16/bits/shared_ptr_base.h \
+ /usr/include/c++/16/bits/allocated_ptr.h \
+ /usr/include/c++/16/ext/concurrence.h \
+ /usr/include/c++/16/bits/shared_ptr_atomic.h \
+ /usr/include/c++/16/bits/atomic_base.h \
+ /usr/include/c++/16/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/16/bits/atomic_wait.h \
+ /usr/include/c++/16/backward/auto_ptr.h \
+ /usr/include/c++/16/bits/ranges_uninitialized.h \
+ /usr/include/c++/16/pstl/glue_memory_defs.h /usr/include/c++/16/numeric \
+ /usr/include/c++/16/bits/stl_numeric.h \
+ /usr/include/c++/16/pstl/glue_numeric_defs.h /usr/include/c++/16/utility \
+ /usr/include/c++/16/bits/stl_relops.h /usr/include/c++/16/bits/intcmp.h \
+ /usr/include/c++/16/atomic /usr/include/c++/16/ratio \
+ /usr/include/c++/16/scoped_allocator /usr/include/c++/16/typeindex \
+ /usr/include/c++/16/any /usr/include/c++/16/optional \
+ /usr/include/c++/16/variant /usr/include/c++/16/bits/monostate.h \
+ /usr/include/c++/16/bits/parse_numbers.h /usr/include/c++/16/ranges \
+ /usr/include/c++/16/span /usr/include/c++/16/source_location \
+ /usr/include/c++/16/version /usr/include/c++/16/coroutine \
+ /usr/include/c++/16/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/16/bits/specfun.h \
+ /usr/include/c++/16/tr1/gamma.tcc \
+ /usr/include/c++/16/tr1/special_function_util.h \
+ /usr/include/c++/16/tr1/bessel_function.tcc \
+ /usr/include/c++/16/tr1/beta_function.tcc \
+ /usr/include/c++/16/tr1/ell_integral.tcc \
+ /usr/include/c++/16/tr1/exp_integral.tcc \
+ /usr/include/c++/16/tr1/hypergeometric.tcc \
+ /usr/include/c++/16/tr1/legendre_function.tcc \
+ /usr/include/c++/16/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/16/tr1/poly_hermite.tcc \
+ /usr/include/c++/16/tr1/poly_laguerre.tcc \
+ /usr/include/c++/16/tr1/riemann_zeta.tcc /usr/include/c++/16/csignal \
+ /usr/include/signal.h /usr/include/bits/signum-generic.h \
+ /usr/include/bits/signum-arch.h /usr/include/bits/types/sig_atomic_t.h \
+ /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \
+ /usr/include/bits/siginfo-arch.h /usr/include/bits/siginfo-consts.h \
+ /usr/include/bits/siginfo-consts-arch.h \
+ /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
+ /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/types/stack_t.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
+ /usr/include/bits/sigstksz.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
+ /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
+ /usr/include/bits/signal_ext.h /usr/include/c++/16/cstring \
+ /usr/include/string.h /usr/include/strings.h /usr/include/c++/16/ctime \
+ /usr/include/c++/16/cfenv /usr/include/c++/16/fenv.h /usr/include/fenv.h \
+ /usr/include/bits/fenv.h /usr/include/c++/16/cinttypes \
+ /usr/include/inttypes.h /usr/include/c++/16/cuchar /usr/include/uchar.h \
+ /usr/include/c++/16/complex /usr/include/c++/16/sstream \
+ /usr/include/c++/16/bits/sstream.tcc /usr/include/c++/16/deque \
+ /usr/include/c++/16/bits/stl_deque.h /usr/include/c++/16/bits/deque.tcc \
+ /usr/include/c++/16/fstream /usr/include/c++/16/bits/codecvt.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/16/bits/fstream.tcc /usr/include/c++/16/iomanip \
+ /usr/include/c++/16/locale \
+ /usr/include/c++/16/bits/locale_facets_nonio.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/time_members.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/16/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/16/bits/locale_conv.h \
+ /usr/include/c++/16/bits/quoted_string.h /usr/include/c++/16/list \
+ /usr/include/c++/16/bits/stl_list.h /usr/include/c++/16/bits/list.tcc \
+ /usr/include/c++/16/map /usr/include/c++/16/bits/stl_tree.h \
+ /usr/include/c++/16/bits/stl_map.h \
+ /usr/include/c++/16/bits/stl_multimap.h /usr/include/c++/16/queue \
+ /usr/include/c++/16/bits/stl_queue.h /usr/include/c++/16/set \
+ /usr/include/c++/16/bits/stl_set.h \
+ /usr/include/c++/16/bits/stl_multiset.h /usr/include/c++/16/stack \
+ /usr/include/c++/16/bits/stl_stack.h /usr/include/c++/16/valarray \
+ /usr/include/c++/16/bits/valarray_array.h \
+ /usr/include/c++/16/bits/valarray_array.tcc \
+ /usr/include/c++/16/bits/valarray_before.h \
+ /usr/include/c++/16/bits/slice_array.h \
+ /usr/include/c++/16/bits/valarray_after.h \
+ /usr/include/c++/16/bits/gslice.h \
+ /usr/include/c++/16/bits/gslice_array.h \
+ /usr/include/c++/16/bits/mask_array.h \
+ /usr/include/c++/16/bits/indirect_array.h /usr/include/c++/16/chrono \
+ /usr/include/c++/16/bits/chrono.h /usr/include/c++/16/bits/chrono_io.h \
+ /usr/include/c++/16/format /usr/include/c++/16/charconv \
+ /usr/include/c++/16/bits/formatfwd.h /usr/include/c++/16/bits/unicode.h \
+ /usr/include/c++/16/bits/unicode-data.h /usr/include/c++/16/codecvt \
+ /usr/include/c++/16/condition_variable \
+ /usr/include/c++/16/bits/std_mutex.h \
+ /usr/include/c++/16/bits/unique_lock.h /usr/include/c++/16/stop_token \
+ /usr/include/c++/16/bits/std_thread.h /usr/include/c++/16/semaphore \
+ /usr/include/c++/16/bits/semaphore_base.h \
+ /usr/include/c++/16/bits/atomic_timed_wait.h \
+ /usr/include/c++/16/bits/this_thread_sleep.h /usr/include/sys/time.h \
+ /usr/include/c++/16/forward_list /usr/include/c++/16/bits/forward_list.h \
+ /usr/include/c++/16/bits/forward_list.tcc /usr/include/c++/16/future \
+ /usr/include/c++/16/mutex /usr/include/c++/16/bits/atomic_futex.h \
+ /usr/include/c++/16/random /usr/include/c++/16/bits/random.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/opt_random.h \
+ /usr/include/c++/16/bits/random.tcc /usr/include/c++/16/regex \
+ /usr/include/c++/16/bits/regex_constants.h \
+ /usr/include/c++/16/bits/regex_error.h \
+ /usr/include/c++/16/bits/regex_automaton.h \
+ /usr/include/c++/16/bits/regex_automaton.tcc \
+ /usr/include/c++/16/bits/regex_scanner.h \
+ /usr/include/c++/16/bits/regex_scanner.tcc \
+ /usr/include/c++/16/bits/regex_compiler.h \
+ /usr/include/c++/16/bits/regex_compiler.tcc \
+ /usr/include/c++/16/bits/regex.h /usr/include/c++/16/bits/regex.tcc \
+ /usr/include/c++/16/bits/regex_executor.h \
+ /usr/include/c++/16/bits/regex_executor.tcc /usr/include/c++/16/thread \
+ /usr/include/c++/16/unordered_set \
+ /usr/include/c++/16/bits/unordered_set.h \
+ /usr/include/c++/16/shared_mutex /usr/include/c++/16/filesystem \
+ /usr/include/c++/16/bits/fs_fwd.h /usr/include/c++/16/bits/fs_path.h \
+ /usr/include/c++/16/bits/fs_dir.h /usr/include/c++/16/bits/fs_ops.h \
+ /usr/include/c++/16/memory_resource /usr/include/c++/16/barrier \
+ /usr/include/c++/16/latch /usr/include/c++/16/syncstream \
+ /home/therealmaksim4/MiniOS/src/functions/../extra_commands/extra_commands.h

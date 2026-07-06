@@ -4,6 +4,7 @@ minios: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/minios.dir/src/main.cpp.o \
   libfunctions.a \
+  libextra_commands.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -45,6 +46,8 @@ minios: \
 CMakeFiles/minios.dir/src/main.cpp.o:
 
 libfunctions.a:
+
+libextra_commands.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libstdc++.so:
 

@@ -130,6 +130,19 @@ functions/fast:
 .PHONY : functions/fast
 
 #=============================================================================
+# Target rules for targets named extra_commands
+
+# Build rule for target.
+extra_commands: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extra_commands
+.PHONY : extra_commands
+
+# fast build rule for target.
+extra_commands/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extra_commands.dir/build.make CMakeFiles/extra_commands.dir/build
+.PHONY : extra_commands/fast
+
+#=============================================================================
 # Target rules for targets named minios
 
 # Build rule for target.
@@ -141,6 +154,30 @@ minios: cmake_check_build_system
 minios/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minios.dir/build.make CMakeFiles/minios.dir/build
 .PHONY : minios/fast
+
+src/extra_commands/extra_commands.o: src/extra_commands/extra_commands.cpp.o
+.PHONY : src/extra_commands/extra_commands.o
+
+# target to build an object file
+src/extra_commands/extra_commands.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extra_commands.dir/build.make CMakeFiles/extra_commands.dir/src/extra_commands/extra_commands.cpp.o
+.PHONY : src/extra_commands/extra_commands.cpp.o
+
+src/extra_commands/extra_commands.i: src/extra_commands/extra_commands.cpp.i
+.PHONY : src/extra_commands/extra_commands.i
+
+# target to preprocess a source file
+src/extra_commands/extra_commands.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extra_commands.dir/build.make CMakeFiles/extra_commands.dir/src/extra_commands/extra_commands.cpp.i
+.PHONY : src/extra_commands/extra_commands.cpp.i
+
+src/extra_commands/extra_commands.s: src/extra_commands/extra_commands.cpp.s
+.PHONY : src/extra_commands/extra_commands.s
+
+# target to generate assembly for a file
+src/extra_commands/extra_commands.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/extra_commands.dir/build.make CMakeFiles/extra_commands.dir/src/extra_commands/extra_commands.cpp.s
+.PHONY : src/extra_commands/extra_commands.cpp.s
 
 src/functions/functions.o: src/functions/functions.cpp.o
 .PHONY : src/functions/functions.o
@@ -198,8 +235,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... extra_commands"
 	@echo "... functions"
 	@echo "... minios"
+	@echo "... src/extra_commands/extra_commands.o"
+	@echo "... src/extra_commands/extra_commands.i"
+	@echo "... src/extra_commands/extra_commands.s"
 	@echo "... src/functions/functions.o"
 	@echo "... src/functions/functions.i"
 	@echo "... src/functions/functions.s"

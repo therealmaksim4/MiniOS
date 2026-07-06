@@ -28,6 +28,12 @@ int main(){
     file readme = {"readme.txt", "Welcome to MiniOS, an OS that runs in your terminal!\nI recommend running MiniOS in TTY!\nHave fun!\n\nMiniOS was made by therealmaksim4"};
     normal_files.push_back(readme);
 
+    file extra = {"extra.txt", "Some extra commands in MiniOS are:\ninfofetch"};
+    normal_files.push_back(extra);
+
+    file base_script = {"base_script.ms", "clear\ninfofetch"};
+    normal_files.push_back(base_script);
+
     system("clear");
 
     std::cout << "Welcome to MiniOS, type \"help\" to list all commands..." << std::endl;
@@ -83,6 +89,44 @@ int main(){
             for(int i = 0; i < user_files.size(); i++){
                 if(cmd == user_files[i].name){
                     user_files.erase(user_files.begin() + i);
+                }
+            }
+        }
+
+        else if(cmd == "content"){
+            std::cout << "Type the name of the file you want to see the content of: ";
+            std::cin >> cmd;
+
+            for(int i = 0; i < normal_files.size(); i++){
+                if(cmd == normal_files[i].name){
+                    std::cout << normal_files[i].content << std::endl;
+                }
+            }
+
+            for(int i = 0; i < user_files.size(); i++){
+                if(cmd == user_files[i].name){
+                    std::cout << user_files[i].content << std::endl;
+                }
+            }
+        }
+
+        else if(cmd == "infofetch"){
+            infofetch(username);
+        }
+
+        else if(cmd == "run"){
+            std::cout << "Type the name of the file you want to run: ";
+            std::cin >> cmd;
+
+            for(int i = 0; i < normal_files.size(); i++){
+                if(cmd == normal_files[i].name){
+                    run(normal_files[i].content, username);
+                }
+            }
+
+            for(int i = 0; i < user_files.size(); i++){
+                if(cmd == user_files[i].name){
+                    run(user_files[i].content, username);
                 }
             }
         }
